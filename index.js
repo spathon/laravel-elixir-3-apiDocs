@@ -22,6 +22,6 @@
 
         new Elixir.Task('apiDocs',function(){
             gulpTask();
-        }).watch(options.src,gulpTask);
+        }).watch(options.src + '**/*.php',gulpTask);
     })
 }());
