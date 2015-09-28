@@ -1,7 +1,7 @@
 (function(){
    'use strict';
-    require('./index');
     var elixir = require('laravel-elixir');
+    require('laravel-elixir-3-apidocs');
 
     elixir(function (mix) {
         mix.apiDocs();
