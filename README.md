@@ -1,1 +1,1 @@
-# laravel-elixer-3-apiDocs 
+# laravel-elixir-3-apiDocs

@@ -1,0 +1,31 @@
+{
+  "name": "laravel-elixir-3-apidocs",
+  "version": "0.0.1",
+  "description": "Wrapper for apiDocs in laravel-elixir.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thellior/laravel-elixir-3-apiDocs.git"
+  },
+  "keywords": [
+    "Laravel",
+    "Laravel-Elixir",
+    "Elixir",
+    "ApiDocs"
+  ],
+  "author": "Erwin Kraan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thellior/laravel-elixir-3-apiDocs/issues"
+  },
+  "homepage": "https://github.com/Thellior/laravel-elixir-3-apiDocs#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-apidoc": "^0.1.5",
+    "laravel-elixir": "^3.0.0",
+    "underscore": "^1.8.3"
+  }
+}
