@@ -1,6 +1,6 @@
 {
   "name": "laravel-elixir-3-apidocs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Wrapper for apiDocs in laravel-elixir.",
   "main": "index.js",
   "scripts": {
