@@ -8,7 +8,8 @@
     var _          = require('underscore');
     var options    = {
         src: 'app/',
-        dest: 'doc'
+        dest: 'doc',
+        watch: true
     }
 
     var gulpTask = function(){
@@ -20,8 +21,9 @@
     Elixir.extend('apiDocs',function(opts){
         options = _.extend(options, opts);
 
-        new Elixir.Task('apiDocs',function(){
+        var apiDocsTask = new Elixir.Task('apiDocs',function(){
             gulpTask();
-        }).watch(options.src + '**/*.php',gulpTask);
+        });
+        if(options.watch) apiDocsTask.watch(options.src + '**/*.php',gulpTask);
     })
 }());
