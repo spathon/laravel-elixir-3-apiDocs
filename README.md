@@ -14,8 +14,8 @@ The Elixir task can be called with the option object.
 The option object can have 2 different key value pairs.
 
     var options = {
-        src: 'app/'
-        dest: 'doc'
+        src: 'app/',
+        dest: 'doc',
         watch: true
     }
     
